@@ -1,0 +1,11 @@
+Q:JFrame和Frame的区别	
+A:	J开头的像JFrame、JButton都是swing下的，Frame、Button都是awt下的，而swing是awt的升级版。
+
+Q:“在JFrame中添加组件不能直接使用add（）方法”这句话对不？？？
+A:	是可以的，只是发生的事情不确定，JFrame本身也是一个容器，但是它还包含了一些其他的东西，比如菜单等等，这些在不同的平台上有不同的特点，同样，在它上面直接add一个组件，所产生的效果也是不稳定的（可能发生与菜单区发生重叠的情况等）；
+	因此推荐在JFrame的主面板上面添加组件：
+	JPanel panel = (JPanel)frame.getContentPane();
+	panel.add..
+	这样保证表现出来的特性是稳定的~~
+Q:JFrame的pack()是做什么的
+A:决定最佳大小
