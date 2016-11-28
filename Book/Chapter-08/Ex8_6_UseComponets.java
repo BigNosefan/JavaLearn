@@ -59,7 +59,7 @@ public class Ex8_6_UseComponets {
 		
 		//8.列表组件的使用
 		String[] likes = {"女朋友","篮球","计算机","好吃的","编程","爸爸妈妈","钱"};
-		JList list = new JList(likes);
+		JList<String> list = new JList<String>(likes);
 		list.setSelectedIndex(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
 		list.setFixedCellHeight(20);
 		list.setVisibleRowCount(7);//好像没用？？？？
@@ -70,7 +70,7 @@ public class Ex8_6_UseComponets {
 		frm.getContentPane().add(scrollpane);
 		
 		//9.选择框组件的使用
-		JComboBox comboBox = new JComboBox(likes);
+		JComboBox<String> comboBox = new JComboBox<String>(likes);
 		comboBox.setEditable(true);
 		comboBox.setMaximumRowCount(3);
 		comboBox.insertItemAt("something", 3);

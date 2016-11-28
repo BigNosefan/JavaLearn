@@ -9,3 +9,5 @@ A:	ÊÇ¿ÉÒÔµÄ£¬Ö»ÊÇ·¢ÉúµÄÊÂÇé²»È·¶¨£¬JFrame±¾ÉíÒ²ÊÇÒ»¸öÈÝÆ÷£¬µ«ÊÇËü»¹°üº¬ÁËÒ»Ð©ÆäË
 	ÕâÑù±£Ö¤±íÏÖ³öÀ´µÄÌØÐÔÊÇÎÈ¶¨µÄ~~
 Q:JFrameµÄpack()ÊÇ×öÊ²Ã´µÄ
 A:¾ö¶¨×î¼Ñ´óÐ¡
+
+×¢Òâ£ºJListÊÇ·ºÐÍÀàÒª×¢ÒâÊ¹ÓÃÊ±µÄ¸ñÊ½ ÀýÈç£ºJList<String>
