@@ -1,5 +1,3 @@
-package chapter_8;
-
 import java.awt.FlowLayout;
 import javax.swing.*;
 

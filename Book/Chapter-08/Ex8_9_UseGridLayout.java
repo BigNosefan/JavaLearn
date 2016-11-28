@@ -1,5 +1,3 @@
-package chapter_8;
-
 import javax.swing.*;
 import java.awt.GridLayout;
 
