@@ -1,0 +1,9 @@
+classpath变量设置时要加上当前目录  .  否则找不到当前目录的class文件。
+JDK，JRE，JVM的作用及关系
+	作用：
+		JVM：保重Java语言跨平台
+		JRE：Java程序的运行环境
+		JDK：Java程序的开发环境
+	关系：
+		JDK：JRE + tools
+		JRE: JVM + 类库
